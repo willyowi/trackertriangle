@@ -1,0 +1,19 @@
+.container{
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+.header{
+  font-size:30px;
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  left:250px;
+  color: white;
+}
+.form {
+  position: absolute;
+  top: 300px;
+
+}
