@@ -17,6 +17,15 @@
   top: 300px;
 
 }
-input  {
+ .form-group input  {
   background-color: #3CBC8D;
   color: white;
+  height:50px;
+  width:500px;
+
+}
+ .form-group button {
+   height:50px;
+   width:100px;
+   padding:15px;
+ }
