@@ -1,7 +1,7 @@
 .container{
   position: relative;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-
 
 }
 .header{
@@ -17,3 +17,6 @@
   top: 300px;
 
 }
+input  {
+  background-color: #3CBC8D;
+  color: white;
