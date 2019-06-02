@@ -6,6 +6,7 @@
   <title></title>
   <link rel="stylesheet" href="styles.css" type="text/css" <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="styles.css" type="text/css">
+  <link rel="stylesheet" href="Javascript/scripts.js">
 </head>
 
 <body>
@@ -21,15 +22,35 @@
           <input type="number" class="form-control" id="two"><br>
           Enter third value:<br>
           <input type="number" class="form-control" id="three"><br>
-          <button onclick="track()"  id="four" class="btn btn-default">Track</button>
-          <button class="btn btn-default">Cancel</button>
+          <button  class="btn btn-default">Cancel</button>
         </form>
       </div>
-
+  <button type="submit" value="submit" onclick="track();" class="btn btn-default">Track</button>``
     </div>
 
   </div>
-  <scripts src="Javascript/script.js" type="text/javascript"></script>
+  <scripts>
+    function submit(){
+    var sideA=document.getElementById("sideA").value;
+    var sideB=document.getElementById("sideB").value;
+    var sideC=document.getElementById("sideC").value;
+
+    if(sideA==sideB && sideB==sideC){
+    alert("equilateral");
+    }
+    else if (sideA==sideB || sideA==sideC || sideB==sideC){
+    alert("isosceles");
+    }
+    else if ((sideA+sideB <sideC) && (sideA+sideC <sideB) && (sideB+sideC <sideA)){
+    alert("not a triangle");
+    }
+    else if(sideA!=sideB && sideB!=sideC && sideA!=sideC) {
+    alert("scalene");
+    }
+
+
+}
+</script>
 
 </body>
 

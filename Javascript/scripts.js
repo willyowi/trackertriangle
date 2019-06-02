@@ -1,28 +1,21 @@
-function track(){
-var one=parseFloat(document.getElementById("one").value);
-var two=parseFloat(document.getElementById("two").value);
-var three=parseFloat(document.getElementById("three").value);
-var track= document.getElementById("four")
 
-if (numOne===numTwo && numOne===numThree && numTwo===numThree) {
-alert("equilatoral triangle");
-}
-else if(numOne===numTwo || numOne===numThree || numTwo===numThree0){
-alert("isosceles triangle");
-}
-else if (numOne!==numTWo && numOne!==numThree && numThree!==numTwo && numOne+numTWo>numThree && (numTwo+numThree)!>=numOne){
-  alert ("scalene triangle");
-}
-else if (numOne+numTwo <=numThree){
-  alert("not a triangle");
-}
-else if (numOne+numThree <=numTwo ){
-    alert("not a triangle");
-}
-else if (numTwo+numThree <=numOne){
-    alert("not a triangle");
-}
-else {
-    alert("not a number");
-}
+function submit(){
+ var sideA=document.getElementById("sideA").value;
+ var sideB=document.getElementById("sideB").value;
+ var sideC=document.getElementById("sideC").value;
+
+ if(sideA==sideB && sideB==sideC){
+ alert("equilateral");
+ }
+ else if (sideA==sideB || sideA==sideC || sideB==sideC){
+ alert("isosceles");
+ }
+ else if ((sideA+sideB <sideC) && (sideA+sideC <sideB) && (sideB+sideC <sideA)){
+ alert("not a triangle");
+ }
+ else if(sideA!=sideB && sideB!=sideC && sideA!=sideC) {
+ alert("scalene");
+ }
+
+
 }
