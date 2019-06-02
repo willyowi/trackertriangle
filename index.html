@@ -12,13 +12,41 @@
       <div class="header">
         <h1>Triangle Tracker</h1>
         <h4>A triangle is a 3-sided polygon sometimes (but not very commonly) called the trigon. Every triangle has three sides and three angles</h4>
-          <a href="tracker.html"><button class="btn-danger">Get started</button></a>
+
       </div>
-      <form class="form-control-static" action="index.html" method="post">
+      <form class="" action="index.html" method="get">
+                  Enter first value: <br>
+                  <input type="number" class="form-control" id="sideA"><br>
+                  Enter  second value: <br>
+                  <input type="number" class="form-control" id="sideB"><br>
+                  Enter third value:<br>
+                  <input type="number" class="form-control" id="sideC"><br>
+                  <button  class="btn btn-default">Cancel</button>
+                </form>
+              </div>
+          <button onclick="submit();" class="btn btn-default">submit</button>``
+            </div>
 
-      </form>
+    <script>
+       function submit(){
+       var sideA=document.getElementById("sideA").value;
+       var sideB=document.getElementById("sideB").value;
+       var sideC=document.getElementById("sideC").value;
 
-    </div>
+       if(sideA==sideB && sideB==sideC){
+       alert("equilateral");
+       }
+       else if (sideA==sideB || sideA==sideC || sideB==sideC){
+       alert("isosceles");
+       }
+       else if (sideA+sideB <sideC && sideA+sideC <sideB && sideB+sideC <sideA){
+       alert("not a triangle");
+       }
+       else if(sideA!=sideB && sideB!=sideC && sideA!=sideC) {
+       alert("scalene");
+       }
 
+   }
+       </script>
   </body>
 </html>
