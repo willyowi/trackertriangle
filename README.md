@@ -19,7 +19,7 @@ Triangle tracker is used to determine the type of triangle whether an isosceles,
 
 
 ## Technologies used
-HTML CSS
+HTML CSS and bootstrap
 ## Contact details.
 Kindly feel free to contact me on the contacts listed below in case you have questions about my code or if you simply feel I need to work on it.
 * Email Address: wilsonowino1@gmail.com
