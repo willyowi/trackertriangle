@@ -6,7 +6,7 @@
 .head {
   position:absolute;
   top:100px;
-  left: 200px;
+  left: 150px;
   text-align: center;
 }
 .head  h1 {
@@ -22,7 +22,7 @@
 }
 .facts {
   font-family: 'Coming Soon', cursive;
-  font-family: 'Coming Soon', cursive;
+
 
 }
 h2{
@@ -31,10 +31,32 @@ h2{
 }
 button {
     font-family: 'Shojumaru', cursive;
+    width: 50px;
 }
 span {
   color:red;
 }
 ul li {
   list-style: none;
+}
+.row {
+  position:absolute;
+  align:center;
+  top:700px
+}
+.row .col-md-4 {
+  left: 100px
+}
+p input {
+  width:300px;
+  height: 45px;
+  font-family: 'Coming Soon', cursive;
+  font-size: 30px;
+  background-color:blue;
+  color: black;
+  font-weight:20px;
+
+}
+p input:hover {
+  color: red;
 }
