@@ -1,7 +1,7 @@
 function tracker(){
-var side1 = parseFloat(prompt("Enter 1st Number"));
-var side2 = parseFloat(prompt("Enter 2nd Number"));
-var side3 = parseFloat(prompt("Enter 3rd Number"));
+var side1 = parseFloat(prompt("Enter  value for 1st side "));
+var side2 = parseFloat(prompt("Enter value for  2nd side"));
+var side3 = parseFloat(prompt("Enter value for 3rd side"));
 var side = function (a,b,c) {
 return a + b > c && b + c > a && c + a > b
 }

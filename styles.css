@@ -13,6 +13,7 @@
     color:white;
     font-size:60px;
     font-family: 'Shojumaru', cursive;
+    text-shadow: 5px 2px #ff0000;
 }
 .container .facts {
   color:white;
@@ -27,4 +28,13 @@
 h2{
     font-family: 'Shojumaru', cursive;
     color: white;
+}
+button {
+    font-family: 'Shojumaru', cursive;
+}
+span {
+  color:red;
+}
+ul li {
+  list-style: none;
 }
