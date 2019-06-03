@@ -13,9 +13,7 @@ Triangle tracker is used to determine the type of triangle whether an isosceles,
   | input     | Description | output |
   | --------- | ----------- | ------ |
   | enter number | prompts the user to enter values for sides eg 40, 40, 40 | equilateral triangle |
-  | --------- | ------ | ----- |
   | enter number | prompts the user to enter values for sides eg 40, 40, 30 | isosceles triangle |
-  | --------- | ------ | ----- |
   | enter number | prompts the user to enter values for sides eg 50, 40, 30 | Scalene triangle |
 
 
