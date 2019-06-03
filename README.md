@@ -10,6 +10,10 @@ Triangle tracker is used to determine the type of triangle whether an isosceles,
   * open the inedx.html on browser to see the program
 
 ## Behaviour Driven Development
+  | input     | Description | output |
+  | --------- | ----------- | ------ |
+  | enter number | 40,40,40 | equilateral |
+  |
 
 ## Technologies used
 HTML CSS
