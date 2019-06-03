@@ -6,9 +6,21 @@
 .head {
   position:absolute;
   top:100px;
-  left: 300px;
+  left: 200px;
   text-align: center;
 }
 .head  h1 {
     color:white;
     font-size:60px;
+    font-family: 'Shojumaru', cursive;
+}
+.container .facts {
+  color:white;
+  font-size:20px
+
+}
+.facts {
+  font-family: 'Coming Soon', cursive;
+  font-family: 'Coming Soon', cursive;
+
+}
