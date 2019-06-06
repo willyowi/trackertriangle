@@ -1,7 +1,7 @@
 .container {
   position:relative;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: scroll;
 }
 .head {
   position:absolute;
@@ -66,4 +66,17 @@ p input:hover {
 }
 button {
   width: 100px;
+}
+
+rowOne {
+  display: flex;
+}
+.rowOne.colOne {
+  flex: left;
+
+}
+h3 {
+  color: red;
+  font-style: italic;
+  font-weight: bolder;
 }

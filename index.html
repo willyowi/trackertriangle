@@ -29,20 +29,30 @@
 
       </div><br><br>
       <h2>Now get to know the type!</h2>
-      <form action="/action_page.php">
-        <fieldset>
-          <legend>What Triangle is it?:</legend>
-          Enter side1:<br>
-          <input type="text" id="side1"  value=""><br>
-          Enter side2:<br>
-          <input type="text" id="side2"  value=""><br><br>
-          Enter side3:<br>
-          <input type="text" id="side3"  value=""><br><br>
+      <div class="rowOne">
+        <div class="colOne">
+          <form action="/action_page.php">
+            <fieldset>
+              <legend>What Triangle is it?:</legend>
+              Enter side1:<br>
+              <input type="text" id="side1"  value=""><br>
+              Enter side2:<br>
+              <input type="text" id="side2"  value=""><br><br>
+              Enter side3:<br>
+              <input type="text" id="side3"  value=""><br><br>
 
-        <button type="button" name="button" class="btn btn-danger" onclick="tracker()">Submit</button>
-        <button type="button" name="button" class="btn btn-default">Reset</button>
-        </fieldset>
-      </form>
+            <button type="button" name="button" class="btn btn-danger" onclick="tracker()">Submit</button>
+            <button type="button" name="button" class="change">Reset</button>
+            </fieldset>
+          </form>
+
+        </div>
+        <div class="colTwo">
+            <h3 id="output">ready?</h3>
+        </div>
+
+      </div>
+
       <h2>Have fun learning more!</h2>
 
     </div>
