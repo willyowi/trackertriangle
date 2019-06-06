@@ -12,9 +12,9 @@ Triangle tracker is used to determine the type of triangle whether an isosceles,
 ## Behaviour Driven Development
   | input     | Description | output |
   | --------- | ----------- | ------ |
-  | enter number | prompts the user to enter values for sides eg 40, 40, 40 | equilateral triangle |
-  | enter number | prompts the user to enter values for sides eg 40, 40, 30 | isosceles triangle |
-  | enter number | prompts the user to enter values for sides eg 50, 40, 30 | Scalene triangle |
+  | enter side | tells the user to enter values for side1 eg 40, 40, 30 | isosceles triangle |
+  | enter side | tells the user to enter values for side1 eg 40, 40, 40 | equilateral triangle |
+  | enter side | tells the user to enter values for side1 eg 50, 40, 30 | Scalene triangle |
 
 
 
