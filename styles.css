@@ -42,7 +42,7 @@ ul li {
 .row {
   position:absolute;
   align:center;
-  top:700px
+  top:1000px
 }
 .row .col-md-4 {
   left: 100px
@@ -63,4 +63,7 @@ p input {
 }
 p input:hover {
   color: red;
+}
+button {
+  width: 100px;
 }

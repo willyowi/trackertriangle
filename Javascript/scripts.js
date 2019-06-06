@@ -1,7 +1,7 @@
 function tracker(){
-var side1 = parseFloat(prompt("Enter  value for 1st side "));
-var side2 = parseFloat(prompt("Enter value for  2nd side"));
-var side3 = parseFloat(prompt("Enter value for 3rd side"));
+var side1 = parseFloat(document.getElementById('side1').value);
+var side2 = parseFloat(document.getElementById('side2').value);
+var side3 = parseFloat(document.getElementById('side3').value);
 var side = function (a,b,c) {
 return a + b > c && b + c > a && c + a > b
 }
@@ -16,4 +16,5 @@ alert("Scalene Triangle")
 }
 else {
 alert("Not Triangle!")
-}};
+};
+};
